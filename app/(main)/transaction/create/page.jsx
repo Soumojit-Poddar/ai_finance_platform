@@ -2,7 +2,6 @@ import { getUserAccounts } from "@/actions/dashboard";
 import { defaultCategories } from "@/data/categories";
 import { AddTransactionForm } from "../_components/transaction-form";
 import { getTransaction } from "@/actions/transaction";
-// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default async function AddTransactionPage({ searchParams }) {
   const accounts = await getUserAccounts();
